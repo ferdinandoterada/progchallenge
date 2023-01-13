@@ -1,4 +1,4 @@
 ## Exercise 3
 
 ## Execution
-Please use a tool like vscode or similar to execute. g++ can be used too.
+Please use g++ to run the main program or a tool like vscode to execute it.
