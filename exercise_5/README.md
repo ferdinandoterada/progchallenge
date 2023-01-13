@@ -16,23 +16,3 @@ cmake CMakeLists.txt;
 make;
 ./runTests
 
-## Execution Example
-$ ./runTests 
-[==========] Running 2 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 2 tests from ConcatenateRemoveTest
-[ RUN      ] ConcatenateRemoveTest.SuccessCase
-Number of operations: 1
-Number of operations: 1
-Number of operations: 8
-[       OK ] ConcatenateRemoveTest.SuccessCase (0 ms)
-[ RUN      ] ConcatenateRemoveTest.FailureCase
-Number of operations: 9
-Number of operations: 9
-Number of operations: 8
-[       OK ] ConcatenateRemoveTest.FailureCase (0 ms)
-[----------] 2 tests from ConcatenateRemoveTest (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 2 tests from 1 test suite ran. (1 ms total)
-[  PASSED  ] 2 tests.
