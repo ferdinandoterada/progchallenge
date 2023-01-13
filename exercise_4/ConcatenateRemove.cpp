@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring>
 #include <algorithm>
 
 
@@ -15,7 +14,7 @@ std::string ConcatRemove(std::string s, std::string t, int k)
             remove_count = s.size() - count_char;
             break;
         }
-        // Count chars that needs to be removed and added
+        // Count characters that needs to be removed and added
         else if (s[count_char] != t[count_char])
         {
             remove_count = s.size() - count_char;

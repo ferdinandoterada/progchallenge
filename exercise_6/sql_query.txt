@@ -1,1 +1,1 @@
-select id, name, value, grade from students inner join notes on students.value <= notes.max_value and students.value >= min_value where notes.grade >= 8 order by notes.grade desc, students.name desc 
+select id, name, value, grade from students inner join notes on students.value <= notes.max_value and students.value >= min_value where notes.grade >= 8 order by notes.grade desc, students.name desc

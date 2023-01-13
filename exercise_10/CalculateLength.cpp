@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main(){
+int main()
+{
     std::string s = "";
     std::cout << "Type string to calculate length: ";
     std::cin >> s;

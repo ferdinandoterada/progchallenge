@@ -71,32 +71,3 @@ bool ValidateOperationInput(int k)
     }
     return true;
 }
-
-/* Commented due to unit test */
-// int main(){
-//     int k = 10;
-//     std::string s="", t=""; 
-    
-//     std::cout << "Type first string in lowercase ascii [a-z]: ";
-//     std::cin >> s;
-    
-//     if (!ValidateStringInput(s)) return -1;
-    
-//     std::cout << "Type second string in lowercase ascii [a-z]: ";
-//     std::cin >> t;
-    
-//     if (!ValidateStringInput(t)) return -1;
-    
-//     std::cout << "Type operation number between 1 and 100: ";
-//     std::cin >> k;
-
-//     if (!ValidateOperationInput(k)) return -1;
-
-//     std::cout << "Result:" << std::endl;
-//     std::cout << s << std::endl;
-//     std::cout << t << std::endl;
-//     std::cout << k << std::endl;
-//     std::cout << ConcatRemove(s, t, k) << std::endl;
-    
-//     return 0;
-// }
